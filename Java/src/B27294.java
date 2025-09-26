@@ -7,7 +7,7 @@ public class B27294 {
         int t = sc.nextInt();
         int s = sc.nextInt();
 
-        if(t >= 12 && t <= 16 && s == 0){
+        if (t >= 12 && t <= 16 && s == 0){
             System.out.println("320");
         } else{
             System.out.println("280");
