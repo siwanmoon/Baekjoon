@@ -8,9 +8,9 @@ public class B27294 {
         int s = sc.nextInt();
 
         if (t >= 12 && t <= 16 && s == 0){
-            System.out.println("320");
+            System.out.println(320);
         } else{
-            System.out.println("280");
+            System.out.println(280);
         }
 
         sc.close();
