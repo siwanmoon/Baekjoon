@@ -4,10 +4,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TestcodeTest {
     @Test
-    @DisplayName("add test")
-    void testAdd() {
+    @DisplayName("add test 1")
+    void testAdd_1() {
         assertEquals(8, Testcode.add(5,3));
-        assertEquals(0, Testcode.add(1, -1));
+    }
+
+    @Test
+    @DisplayName("add test 2")
+    void testAdd_2() {
+        assertEquals(0, Testcode.add(8, -8));
     }
 
     @Test
