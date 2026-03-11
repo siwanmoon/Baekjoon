@@ -1,3 +1,3 @@
 a = input()
 b = input()
-print("no" if len(a) >= len(b) else "go")
+print("go" if len(a) >= len(b) else "no")
